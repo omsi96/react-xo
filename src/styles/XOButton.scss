@@ -1,0 +1,42 @@
+.XOButton {
+  display: block;
+  width: 100px !important;
+  height: 100px !important;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(16, 4, 36);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(26, 13, 52);
+  border-width: 3px;
+  line-height: 150%;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.XOGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
